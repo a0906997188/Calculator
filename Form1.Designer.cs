@@ -51,32 +51,35 @@
             // btnOne
             // 
             this.btnOne.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnOne.Location = new System.Drawing.Point(28, 87);
+            this.btnOne.Location = new System.Drawing.Point(28, 275);
             this.btnOne.Name = "btnOne";
             this.btnOne.Size = new System.Drawing.Size(96, 74);
             this.btnOne.TabIndex = 0;
             this.btnOne.Text = "1";
             this.btnOne.UseVisualStyleBackColor = true;
+            this.btnOne.Click += new System.EventHandler(this.btnOne_Click);
             // 
             // btnTwo
             // 
             this.btnTwo.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnTwo.Location = new System.Drawing.Point(167, 87);
+            this.btnTwo.Location = new System.Drawing.Point(167, 275);
             this.btnTwo.Name = "btnTwo";
             this.btnTwo.Size = new System.Drawing.Size(96, 74);
             this.btnTwo.TabIndex = 1;
             this.btnTwo.Text = "2";
             this.btnTwo.UseVisualStyleBackColor = true;
+            this.btnTwo.Click += new System.EventHandler(this.btnTwo_Click);
             // 
             // btnThree
             // 
             this.btnThree.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnThree.Location = new System.Drawing.Point(308, 87);
+            this.btnThree.Location = new System.Drawing.Point(308, 275);
             this.btnThree.Name = "btnThree";
             this.btnThree.Size = new System.Drawing.Size(96, 74);
             this.btnThree.TabIndex = 2;
             this.btnThree.Text = "3";
             this.btnThree.UseVisualStyleBackColor = true;
+            this.btnThree.Click += new System.EventHandler(this.btnThree_Click);
             // 
             // txtNumber
             // 
@@ -85,6 +88,7 @@
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(383, 55);
             this.txtNumber.TabIndex = 3;
+            this.txtNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnFour
             // 
@@ -95,6 +99,7 @@
             this.btnFour.TabIndex = 4;
             this.btnFour.Text = "4";
             this.btnFour.UseVisualStyleBackColor = true;
+            this.btnFour.Click += new System.EventHandler(this.btnFour_Click);
             // 
             // btnFive
             // 
@@ -105,6 +110,7 @@
             this.btnFive.TabIndex = 5;
             this.btnFive.Text = "5";
             this.btnFive.UseVisualStyleBackColor = true;
+            this.btnFive.Click += new System.EventHandler(this.btnFive_Click);
             // 
             // btnSix
             // 
@@ -115,36 +121,40 @@
             this.btnSix.TabIndex = 6;
             this.btnSix.Text = "6";
             this.btnSix.UseVisualStyleBackColor = true;
+            this.btnSix.Click += new System.EventHandler(this.btnSix_Click);
             // 
             // btnSeven
             // 
             this.btnSeven.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSeven.Location = new System.Drawing.Point(28, 275);
+            this.btnSeven.Location = new System.Drawing.Point(28, 87);
             this.btnSeven.Name = "btnSeven";
             this.btnSeven.Size = new System.Drawing.Size(96, 74);
             this.btnSeven.TabIndex = 7;
             this.btnSeven.Text = "7";
             this.btnSeven.UseVisualStyleBackColor = true;
+            this.btnSeven.Click += new System.EventHandler(this.btnSeven_Click);
             // 
             // btnEight
             // 
             this.btnEight.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnEight.Location = new System.Drawing.Point(167, 275);
+            this.btnEight.Location = new System.Drawing.Point(167, 87);
             this.btnEight.Name = "btnEight";
             this.btnEight.Size = new System.Drawing.Size(96, 74);
             this.btnEight.TabIndex = 8;
             this.btnEight.Text = "8";
             this.btnEight.UseVisualStyleBackColor = true;
+            this.btnEight.Click += new System.EventHandler(this.btnEight_Click);
             // 
             // btnNine
             // 
             this.btnNine.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnNine.Location = new System.Drawing.Point(308, 275);
+            this.btnNine.Location = new System.Drawing.Point(308, 87);
             this.btnNine.Name = "btnNine";
             this.btnNine.Size = new System.Drawing.Size(96, 74);
             this.btnNine.TabIndex = 9;
             this.btnNine.Text = "9";
             this.btnNine.UseVisualStyleBackColor = true;
+            this.btnNine.Click += new System.EventHandler(this.btnNine_Click);
             // 
             // btnEqual
             // 
@@ -165,6 +175,7 @@
             this.btnZero.TabIndex = 11;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = true;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
             // btnDot
             // 
