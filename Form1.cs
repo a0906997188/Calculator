@@ -28,50 +28,32 @@ namespace Calculator
             txtNumber.Text = "0";
         }
 
-        private void btnOne_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnOne_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnTwo_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnTwo_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnThree_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnThree_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnSix_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnSix_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnFive_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnFive_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnFour_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnFour_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnSeven_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnSeven_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnEight_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnEight_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
-        private void btnNine_Click(object sender, EventArgs e)
-        {
-            NumberbtnAdd(sender);
-        }
+        private void btnNine_Click(object sender, EventArgs e)=>NumberbtnAdd(sender);
+        
 
         private void btnZero_Click(object sender, EventArgs e)
         {
@@ -157,6 +139,7 @@ namespace Calculator
                 }
             }
         }
+
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
